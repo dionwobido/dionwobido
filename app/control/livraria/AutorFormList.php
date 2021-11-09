@@ -24,13 +24,13 @@ class AutorFormList extends TPage
         
 
         // create the form fields
-        $id = new TEntry('id');//THidden
+        $id = new THidden('id');//THidden
         $nome = new TEntry('nome');
         $email = new TEntry('email');
 
 
         // add the fields
-        $this->form->addFields( [ new TLabel('Id') ], [ $id ] );//THidden
+        $this->form->addFields( [ new THidden('Id') ], [ $id ] );//THidden
         $this->form->addFields( [ new TLabel('Nome') ], [ $nome ], [ new TLabel('Email') ], [ $email ] );
 
 
