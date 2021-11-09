@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+  <menuitem label="_t{Administration}">
+    <icon>fas:home fa-fw #3d9ff4</icon>
+    <menu>
+      <menuitem label="Dashboard">
+        <action>SystemAdministrationDashboard</action>
+        <icon>fas:tachometer-alt fa-fw #3d9ff4</icon>
+      </menuitem>
+      <menuitem label="_t{Programs}">
+        <action>SystemProgramList</action>
+        <icon>far:file-code fa-fw #3d9ff4</icon>
+      </menuitem>
+      <menuitem label="_t{Groups}">
+        <action>SystemGroupList</action>
+        <icon>fas:users fa-fw #3d9ff4</icon>
+      </menuitem>
+      <menuitem label="_t{Units}">
+        <action>SystemUnitList</action>
+        <icon>fas:university fa-fw #3d9ff4</icon>
+      </menuitem>
+      <menuitem label="_t{Users}">
+        <action>SystemUserList</action>
+        <icon>fas:user fa-fw #3d9ff4</icon>
+      </menuitem>
+      <menuitem label="_t{Database explorer}">
+        <action>SystemDatabaseExplorer</action>
+        <icon>fas:database fa-fw #00bfff</icon>
+      </menuitem>
+      <menuitem label="_t{SQL Panel}">
+        <action>SystemSQLPanel</action>
+        <icon>fas:table fa-fw #00bfff</icon>
+      </menuitem>
+      <menuitem label="_t{Menu editor}">
+        <action>SystemMenuEditor</action>
+        <icon>far:edit fa-fw #00bfff</icon>
+      </menuitem>
+      <menuitem label="PHP Info">
+        <action>SystemPHPInfoView</action>
+        <icon>fas:info-circle fa-fw #00bfff</icon>
+      </menuitem>
+      <menuitem label="_t{Preferences}">
+        <action>SystemPreferenceForm#method=onEdit</action>
+        <icon>fas:cog fa-fw #00bfff</icon>
+      </menuitem>
+    </menu>
+  </menuitem>
+  <menuitem label="_t{Documents}">
+    <icon>far:file-alt fa-fw #99a0eb</icon>
+    <menu>
+      <menuitem label="_t{Send document}">
+        <action>SystemDocumentUploadForm</action>
+        <icon>fas:cloud-upload-alt fa-fw #99a0eb</icon>
+      </menuitem>
+      <menuitem label="_t{My documents}">
+        <action>SystemDocumentList</action>
+        <icon>fas:archive fa-fw #99a0eb</icon>
+      </menuitem>
+      <menuitem label="_t{Shared with me}">
+        <action>SystemSharedDocumentList</action>
+        <icon>fas:share-alt fa-fw #99a0eb</icon>
+      </menuitem>
+      <menuitem label="_t{Categories}">
+        <action>SystemDocumentCategoryFormList</action>
+        <icon>fas:th fa-fw #99a0eb</icon>
+      </menuitem>
+    </menu>
+  </menuitem>
+  <menuitem label="Logs">
+    <icon>fas:desktop fa-fw #6074c0</icon>
+    <menu>
+      <menuitem label="Dashboard">
+        <action>SystemLogDashboard</action>
+        <icon>fas:tachometer-alt fa-fw #6074c0</icon>
+      </menuitem>
+      <menuitem label="_t{Access Log}">
+        <action>SystemAccessLogList</action>
+        <icon>fas:key fa-fw #6074c0</icon>
+      </menuitem>
+      <menuitem label="_t{Change Log}">
+        <action>SystemChangeLogView</action>
+        <icon>fas:film fa-fw #6074c0</icon>
+      </menuitem>
+      <menuitem label="_t{SQL Log}">
+        <action>SystemSqlLogList</action>
+        <icon>fas:database fa-fw #6074c0</icon>
+      </menuitem>
+      <menuitem label="_t{Request Log}">
+        <action>SystemRequestLogList</action>
+        <icon>fas:globe fa-fw #6074c0</icon>
+      </menuitem>
+      <menuitem label="_t{PHP Log}">
+        <action>SystemPHPErrorLogView</action>
+        <icon>fas:exclamation-triangle fa-fw #6074c0</icon>
+      </menuitem>
+      <menuitem label="Session dump">
+        <action>SystemSessionDumpView</action>
+        <icon>fas:code fa-fw #6074c0</icon>
+      </menuitem>
+    </menu>
+  </menuitem>
+  <menuitem label="Cadastro">
+    <icon>fas:home fa-fw #1111f6</icon>
+    <menu>
+      <menuitem label="Autor">
+        <action>AutorFormList</action>
+        <icon>fas:list-alt fa-fw #1111f6</icon>
+      </menuitem>
+      <menuitem label="Cliente">
+        <action>ClienteFormList</action>
+        <icon>fas:list-alt fa-fw #1111f6</icon>
+      </menuitem>
+      <menuitem label="Editora">
+        <action>EditoraFormList</action>
+        <icon>fas:list-alt fa-fw #1111f6</icon>
+      </menuitem>
+      <menuitem label="Genero">
+        <action>GeneroFormList</action>
+        <icon>fas:list-alt fa-fw #1111f6</icon>
+      </menuitem>
+      <menuitem label="Livro">
+        <action>LivroFormList</action>
+        <icon>fas:list-alt fa-fw #1111f6</icon>
+      </menuitem>
+      <menuitem label="Venda">
+        <action>VendaFormList</action>
+        <icon>fas:list-alt fa-fw #1111f6</icon>
+      </menuitem>
+      <menuitem label="ItensDaVenda">
+        <action>ItensDaVendaFormList</action>
+        <icon>fas:list-alt fa-fw #1111f6</icon>
+      </menuitem>
+    </menu>
+  </menuitem>
+  <menuitem label="Reportes">
+    <icon>fas:th-list fa-fw #0c0cc4</icon>
+    <menu>
+      <menuitem label="Autor">
+        <action>AutorReport</action>
+        <icon>fas:list fa-fw #0c0cc4</icon>
+      </menuitem>
+      <menuitem label="Cliente">
+        <action>ClienteReport</action>
+        <icon>fas:list fa-fw #0c0cc4</icon>
+      </menuitem>
+      <menuitem label="Editora">
+        <action>EditoraReport</action>
+        <icon>fas:list fa-fw #0c0cc4</icon>
+      </menuitem>
+      <menuitem label="Select">
+        <action>SelectGeneroEditoraLivro</action>
+        <icon>fas:list fa-fw #0c0cc4</icon>
+      </menuitem>
+      <menuitem label="Livro">
+        <action>LivroReport</action>
+        <icon>fas:list fa-fw #0c0cc4</icon>
+      </menuitem>
+    </menu>
+  </menuitem>
+  <menuitem label="Painéis">
+    <icon>fas:book-open fa-fw #855bf0</icon>
+    <menu>
+      <menuitem label="Grafico do Livro ">
+        <action>LivroDashboard</action>
+        <icon>fas:book-open fa-fw #855bf0</icon>
+      </menuitem>
+      <menuitem label="Grafico da Livraria">
+        <action>LivrariaDashboard</action>
+        <icon>fas:book-open fa-fw #855bf0</icon>
+      </menuitem>
+    </menu>
+  </menuitem>
+  <menuitem label="Common pages">
+    <menu>
+      <menuitem label="Common page 1">
+        <action>CommonPage</action>
+      </menuitem>
+      <menuitem label="Common page 2">
+        <action>CommonPage</action>
+      </menuitem>
+      <menuitem label="Common page 3">
+        <action>CommonPage</action>
+      </menuitem>
+    </menu>
+  </menuitem>
+  <menuitem label="Logout">
+    <action>LoginForm#method=onLogout#static=1</action>
+    <icon>fas:sign-out-alt fa-fw #a640ff</icon>
+  </menuitem>
+</menu>
